@@ -10,3 +10,13 @@ managedNodeGroups:
   instanceType: t3.medium
   desiredCapacity: 3
   spot: true
+
+
+  # FOR AZURE
+  # az aks create \
+  # --resource-group aks-rg \
+  # --name expense \
+  # --node-count 1 \
+  # --node-vm-size Standard_B2s \
+  # --nodepool-name systempool \
+  # --generate-ssh-keys
